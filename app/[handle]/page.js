@@ -37,7 +37,7 @@ export default async function Page({ params }) {
                 <div className={`${styles.handle_container3} ${styles[themeClass]}`}>
                     {doc.links.map((item, index) => {
                         return (
-                            <Link key={index} href={item.link}>{item.linktext}</Link>
+                            <Link key={index} href={item.link} target='_blank'>{item.linktext}</Link>
                         )
                     })}
                 </div>
