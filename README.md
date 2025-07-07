@@ -8,6 +8,8 @@ SyncTree is a minimal **Linktree** clone where users can claim a unique handle, 
 ![Project screenshot](./Project_screenshots/Image1.png)
 <br><br>
 ![Project screenshot](./Project_screenshots/Image2.png)
+<br><br>
+![Project screenshot](./Project_screenshots/Image3.png)
 
 <br>
 
@@ -33,4 +35,9 @@ SyncTree is a minimal **Linktree** clone where users can claim a unique handle, 
 ## 🚀 Deployment
 The app is deployed on <b>Vercel</b> and can be accessed via:
 <br>
-https://quickurl-shortener.vercel.app/
+https://synctree.vercel.app/
+
+<br>
+
+## 🚀 Contact
+- LinkedIn: www.linkedin.com/in/ibadhussain
