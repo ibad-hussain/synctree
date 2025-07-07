@@ -1,0 +1,93 @@
+.main_navbar {
+    background-color: #fff;
+    width: 90vw;
+    padding: 10px 20px;
+    margin-left: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 45px;
+    border: none;
+    border-radius: 50px;
+    z-index: 10000;
+}
+
+.main_navbar_generatePage {
+    margin-left: 5vw;
+}
+
+.navbar_left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-left: 10px;
+}
+
+.navbar_logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar_logo span {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navbar_logo img {
+    width: 30px;
+    margin-left: -4px;
+}
+
+.navbar_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 22px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.navbar_links a:hover {
+    font-weight: 500;
+}
+
+.navbar_btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.navbar_login {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #eff0ec;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.navbar_login:hover {
+    background-color: #d7d8d5;
+}
+
+.navbar_signup {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px 26px;
+    border: none;
+    border-radius: 50px;
+    background-color: #1e2330;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.navbar_signup:hover {
+    background-color: #262d3d;
+}

@@ -1,0 +1,165 @@
+.main_homeTwo {
+    background-color: #e9c0e9;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeTwo_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5vw;
+}
+
+.homeTwo_left {
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeTwo_left_img_container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeTwo_image1 {
+    width: 400px;
+}
+
+.homeTwo_image2 {
+    width: 250px;
+}
+
+.homeTwo_image3_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.homeTwo_image3_container img {
+    width: 80px;
+    border: none;
+    border-radius: 50px;
+}
+
+.homeTwo_image3_container_span {
+    padding: 16px 32px;
+    border: none;
+    border-radius: 50px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeTwo_image3_container_span img {
+    width: 40px;
+}
+
+.homeTwo_image3_container_span span {
+    font-size: 18px;
+    font-weight: 600;
+    color: #363636;
+}
+
+.homeTwo_right {
+    width: 45vw;
+}
+
+.homeTwo_right_heading {
+    font-weight: 900;
+    font-size: 50px;
+    color: #502274;
+}
+
+.homeTwo_right_heading_p2,
+.homeTwo_right_heading_p3 {
+    margin-top: -22px;
+}
+
+.homeTwo_right_subheading {
+    font-weight: 500;
+    font-size: 17px;
+    color: #222634;
+    margin-top: 10px;
+}
+
+.homeTwo_right_btn {
+    margin-top: 45px;
+}
+
+.homeTwo_right_btn button {
+    background-color: #502274;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 20px 52px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.homeTwo_right_btn button:hover {
+    background-color: #6a3196;
+}
+
+
+
+/* --------------------- */
+/* Animations */
+
+.homeTwo_left_img_container {
+    position: relative;
+}
+
+.homeTwo_left_img_container>* {
+    position: absolute;
+    opacity: 0;
+    animation: fadeImages 9s infinite;
+}
+
+.homeTwo_image1 {
+    animation-delay: 0s;
+}
+
+.homeTwo_image2 {
+    animation-delay: 3s;
+}
+
+.homeTwo_image3_container {
+    animation-delay: 6s;
+}
+
+@keyframes fadeImages {
+    0% {
+        opacity: 0;
+        z-index: 0;
+    }
+
+    25% {
+        opacity: 1;
+        z-index: 1;
+    }
+
+    50% {
+        opacity: 0;
+        z-index: 0;
+    }
+
+    75% {
+        opacity: 0;
+        z-index: 0;
+    }
+
+    100% {
+        opacity: 0;
+        z-index: 0;
+    }
+}

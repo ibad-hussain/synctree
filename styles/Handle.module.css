@@ -1,0 +1,221 @@
+.main_handle {
+    padding: 50px 0 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.handle_top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.handle_container1 img {
+    width: 110px;
+    border: none;
+    border-radius: 100px;
+    box-shadow: 6px 6px 20px black;
+}
+
+.handle_container2 {
+    margin-top: 15px;
+}
+
+.handle_container2_heading {
+    text-align: center;
+}
+
+.handle_container2_subheading {
+    text-align: center;
+    font-weight: 400;
+    width: 40vw;
+    line-height: 1.4;
+}
+
+.handle_container3 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.handle_container3 a {
+    width: 30vw;
+    padding: 14px 10px;
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+    line-height: 1.3;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    word-wrap: break-word;
+    transition: all 0.1s ease;
+}
+
+.handle_container3 a:hover {
+    border: 2px solid;
+    transform: scale(1.1);
+}
+
+.handle_container4 {
+    margin-top: 50px;
+}
+
+.handle_container4_join {
+    padding: 14px 26px;
+    background-color: #fff;
+    color: #1e2330;
+    border: none;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.handle_container4_join:hover {
+    background-color: #cacaca;
+}
+
+
+
+/* --------------------- */
+/* Conditional Rendered Styles */
+
+
+/* ========== 1. theme_242222 ========== */
+.theme_242222 {
+    background-color: #242222;
+}
+
+.theme_242222 .handle_container2_heading,
+.theme_242222 .handle_container2_subheading {
+    color: #fec101;
+}
+
+.theme_242222 .handle_container3 a {
+    background-color: #fec101;
+    color: #000;
+}
+
+.theme_242222 .handle_container3 a:hover {
+    background-color: #242222;
+    color: #fec101;
+    border-color: #fff;
+}
+
+
+/* ========== 2. theme_3c56ff ========== */
+.theme_3c56ff {
+    background-color: #3c56ff;
+}
+
+.theme_3c56ff .handle_container2_heading,
+.theme_3c56ff .handle_container2_subheading {
+    color: #fff;
+}
+
+.theme_3c56ff .handle_container3 a {
+    background-color: #fff;
+    color: #000;
+}
+
+.theme_3c56ff .handle_container3 a:hover {
+    background-color: #3c56ff;
+    color: #fff;
+    border-color: #fff;
+}
+
+
+/* ========== 3. theme_42e19f ========== */
+.theme_42e19f {
+    background-color: #42e19f;
+}
+
+.theme_42e19f .handle_container2_heading,
+.theme_42e19f .handle_container2_subheading {
+    color: #000;
+}
+
+.theme_42e19f .handle_container3 a {
+    background-color: #242222;
+    color: #fff;
+}
+
+.theme_42e19f .handle_container3 a:hover {
+    background-color: #42e19f;
+    color: #000;
+    border-color: #fff;
+}
+
+
+/* ========== 4. theme_ff5800 ========== */
+.theme_ff5800 {
+    background-color: #ff5800;
+}
+
+.theme_ff5800 .handle_container2_heading,
+.theme_ff5800 .handle_container2_subheading {
+    color: #fff;
+}
+
+.theme_ff5800 .handle_container3 a {
+    background-color: #fff;
+    color: #000;
+}
+
+.theme_ff5800 .handle_container3 a:hover {
+    background-color: #ff5800;
+    color: #fff;
+    border-color: #fff;
+}
+
+
+/* ========== 5. theme_ed62d3 ========== */
+.theme_ed62d3 {
+    background-color: #ed62d3;
+}
+
+.theme_ed62d3 .handle_container2_heading,
+.theme_ed62d3 .handle_container2_subheading {
+    color: #000;
+}
+
+.theme_ed62d3 .handle_container3 a {
+    background-color: #fff;
+    color: #000;
+}
+
+.theme_ed62d3 .handle_container3 a:hover {
+    background-color: #ed62d3;
+    color: #000;
+    border-color: #fff;
+}
+
+
+/* ========== 6. theme_a1ddff ========== */
+.theme_a1ddff {
+    background-color: #a1ddff;
+}
+
+.theme_a1ddff .handle_container2_heading,
+.theme_a1ddff .handle_container2_subheading {
+    color: #000;
+}
+
+.theme_a1ddff .handle_container3 a {
+    background-color: #fff;
+    color: #000;
+}
+
+.theme_a1ddff .handle_container3 a:hover {
+    background-color: #a1ddff;
+    color: #000;
+    border-color: #fff;
+}

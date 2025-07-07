@@ -1,0 +1,13 @@
+.products_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e8efd6;
+    color: #1e2330;
+}
+
+.products_container h1 {
+    font-size: 160px;
+    font-weight: 900;
+}

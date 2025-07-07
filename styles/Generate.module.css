@@ -1,0 +1,504 @@
+.main_generate {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #d8e4b9;
+    color: #1e2330;
+    padding: 40px 0;
+}
+
+.generate_step1_container,
+.generate_step2_container,
+.generate_step3_container,
+.generate_step4_container,
+.generate_step5_container {
+    margin-top: 140px;
+    width: 50vw;
+    min-height: 60vh;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    box-shadow: 8px 8px 20px #0000008c;
+}
+
+.generate_step_heading {
+    text-align: center;
+}
+
+.generate_step_subheading {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.generate_step1_btns {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.generate_step1_btns input {
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #7a7a7a;
+    background-color: #d8e4b9;
+    width: 200px;
+}
+
+.generate_step1_btns button {
+    background-color: #1e2330;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.generate_step1_btns button:hover {
+    background-color: #2d323f;
+}
+
+.generate_step1_btns button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.generate_step1_container_bottom,
+.generate_step2_container_bottom,
+.generate_step3_container_bottom,
+.generate_step4_container_bottom,
+.generate_step5_container_bottom {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.generate_step_bottom_btn button {
+    background-color: #ff6c03;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.generate_step_bottom_btn button:disabled {
+    background-color: #ff842c;
+    cursor: not-allowed;
+    opacity: 0.8;
+}
+
+.generate_step2_btns {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.generate_step2_btns input {
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #7a7a7a;
+    background-color: #d8e4b9;
+    width: 200px;
+}
+
+.generate_step2_btns button {
+    background-color: #1e2330;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.generate_step2_btns button:hover {
+    background-color: #2d323f;
+}
+
+.generate_step2_btns button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.generate_step3_btns {
+    margin-top: 8px;
+}
+
+.generate_step3_btns input {
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #7a7a7a;
+    background-color: #d8e4b9;
+    width: 200px;
+}
+
+.generate_step3_btns input:nth-child(1) {
+    margin-right: 6px;
+}
+
+.generate_step3_addlinkbtn button {
+    background-color: #1e2330;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: block;
+    margin-top: 6px;
+}
+
+.generate_step3_addlinkbtn button:hover {
+    background-color: #2d323f;
+}
+
+.generate_step3_addlinkbtn button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.generate_step3_confirmbtn button {
+    background-color: #780016;
+    color: #e9c0e9;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 15px;
+}
+
+.generate_step3_confirmbtn button:hover {
+    background-color: #e9c0e9;
+    color: #780016;
+}
+
+.generate_step3_confirmbtn button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.generate_step4_avatar_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.generate_step4_avatar_container img {
+    width: 140px;
+    cursor: pointer;
+    transition: all 0.1s ease;
+    border-radius: 100px;
+}
+
+.generate_step4_avatar_container img:hover {
+    border: 4px solid #1e2330;
+}
+
+.generate_step4_avatar_container_selectedAvatar {
+    border: 4px solid #1e2330;
+}
+
+.generate_step4_confirmbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.generate_step4_confirmbtn button {
+    background-color: #780016;
+    color: #e9c0e9;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 30px;
+}
+
+.generate_step4_confirmbtn button:hover {
+    background-color: #e9c0e9;
+    color: #780016;
+}
+
+.generate_step4_confirmbtn button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.generate_step5_theme_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.generate_step5_theme_container_theme1,
+.generate_step5_theme_container_theme2,
+.generate_step5_theme_container_theme3,
+.generate_step5_theme_container_theme4,
+.generate_step5_theme_container_theme5,
+.generate_step5_theme_container_theme6 {
+    width: 170px;
+    height: 120px;
+    cursor: pointer;
+    transition: all 0.1s ease;
+    border-radius: 12px;
+}
+
+.generate_step5_theme_container_theme1 {
+    background-color: #242222;
+}
+
+.generate_step5_theme_container_theme2 {
+    background-color: #3c56ff;
+}
+
+.generate_step5_theme_container_theme3 {
+    background-color: #42e19f;
+}
+
+.generate_step5_theme_container_theme4 {
+    background-color: #ff5800;
+}
+
+.generate_step5_theme_container_theme5 {
+    background-color: #ed62d3;
+}
+
+.generate_step5_theme_container_theme6 {
+    background-color: #a1ddff;
+}
+
+.generate_step5_theme_container_theme1:hover,
+.generate_step5_theme_container_theme2:hover,
+.generate_step5_theme_container_theme3:hover,
+.generate_step5_theme_container_theme4:hover,
+.generate_step5_theme_container_theme5:hover,
+.generate_step5_theme_container_theme6:hover {
+    border: 4px solid #ff0000;
+}
+
+.generate_step5_theme_container_theme1_selectedTheme,
+.generate_step5_theme_container_theme2_selectedTheme,
+.generate_step5_theme_container_theme3_selectedTheme,
+.generate_step5_theme_container_theme4_selectedTheme,
+.generate_step5_theme_container_theme5_selectedTheme,
+.generate_step5_theme_container_theme6_selectedTheme {
+    border: 4px solid #ff0000;
+}
+
+.generate_step5_confirmbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.generate_step5_confirmbtn button {
+    background-color: #780016;
+    color: #e9c0e9;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 30px;
+}
+
+.generate_step5_confirmbtn button:hover {
+    background-color: #e9c0e9;
+    color: #780016;
+}
+
+.generate_step5_confirmbtn button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+
+
+/* --------------------- */
+/* Animations */
+
+.generate_step1_container,
+.generate_step2_container,
+.generate_step3_container,
+.generate_step4_container,
+.generate_step5_container {
+    opacity: 0;
+    animation: fadeIn 1.5s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+/* --------------------- */
+/* Loader */
+
+.generate_loading_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+
+.generate_loading_container_heading {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.generate_loading_container_loader {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.generate_loading_container_truckWrapper {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: flex-end;
+    overflow-x: hidden;
+}
+
+/* truck upper body */
+.generate_loading_container_truckBody {
+    width: 130px;
+    height: fit-content;
+    margin-bottom: 6px;
+    animation: motion 1s linear infinite;
+}
+
+/* truck suspension animation*/
+@keyframes motion {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(3px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/* truck's tires */
+.generate_loading_container_truckTires {
+    width: 130px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px 0px 15px;
+    position: absolute;
+    bottom: 0;
+}
+
+.generate_loading_container_truckTires svg {
+    width: 24px;
+}
+
+.generate_loading_container_road {
+    width: 100%;
+    height: 1.5px;
+    background-color: #282828;
+    position: relative;
+    bottom: 0;
+    align-self: flex-end;
+    border-radius: 3px;
+}
+
+.generate_loading_container_road::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 100%;
+    background-color: #282828;
+    right: -50%;
+    border-radius: 3px;
+    animation: roadAnimation 1.4s linear infinite;
+    border-left: 10px solid white;
+}
+
+.generate_loading_container_road::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 100%;
+    background-color: #282828;
+    right: -65%;
+    border-radius: 3px;
+    animation: roadAnimation 1.4s linear infinite;
+    border-left: 4px solid white;
+}
+
+.generate_loading_container_lampPost {
+    position: absolute;
+    bottom: 0;
+    right: -90%;
+    height: 90px;
+    animation: roadAnimation 1.4s linear infinite;
+}
+
+@keyframes roadAnimation {
+    0% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(-350px);
+    }
+}

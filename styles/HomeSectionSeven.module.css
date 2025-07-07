@@ -1,0 +1,213 @@
+.main_homeSeven {
+    background-color: #502274;
+    padding: 30px 60px;
+    position: relative;
+    z-index: 1;
+}
+
+.homeSeven_image1 {
+    transform: rotate(16.42deg);
+    width: 535px;
+    z-index: -1;
+    position: absolute;
+    top: 40px;
+}
+
+.homeSeven_image2 {
+    width: 580px;
+    z-index: -1;
+    position: absolute;
+    top: 590px;
+    right: -200px;
+}
+
+.main_homeSeven_top {
+    margin: 220px 0;
+}
+
+.main_homeSeven_top_heading {
+    color: #e9c0e9;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.main_homeSeven_top_heading_p2 {
+    margin-top: -18px;
+}
+
+.main_homeSeven_top_btns {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_homeSeven_top_btns div {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.main_homeSeven_top_btns input {
+    font-weight: 600;
+    padding: 16px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    color: #7a7a7a;
+    width: 260px;
+}
+
+.main_homeSeven_top_btns button {
+    background-color: #d2e823;
+    color: #1e2330;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 16px 22px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.main_homeSeven_top_btns button:hover {
+    background-color: #cbe025;
+}
+
+.main_homeSeven_middle {
+    background-color: #fff;
+    padding: 50px;
+    border: none;
+    border-radius: 15px;
+}
+
+.main_homeSeven_middle_container1 {
+    display: flex;
+    gap: 180px;
+}
+
+.main_homeSeven_middle_container1_links_heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1e2330;
+}
+
+.main_homeSeven_middle_container1_links_links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #1e2330;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.main_homeSeven_middle_container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.main_homeSeven_middle_container2_btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.homeSeven_login {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #eff0ec;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.homeSeven_login:hover {
+    background-color: #d7d8d5;
+}
+
+.homeSeven_getstarted {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 15px 26px;
+    border: none;
+    border-radius: 50px;
+    background-color: #d2e823;
+    color: #1e2330;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.homeSeven_getstarted:hover {
+    background-color: #cbe025;
+}
+
+.main_homeSeven_middle_container2_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.main_homeSeven_middle_container2_links a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border: none;
+    border-radius: 50px;
+    height: 60px;
+    background-color: #1e2330;
+    transition: all 0.3s ease;
+}
+
+.main_homeSeven_middle_container2_links a:hover {
+    background-color: #2f3544;
+}
+
+.main_homeSeven_middle_container2_links a:nth-child(1),
+.main_homeSeven_middle_container2_links a:nth-child(2) {
+    padding: 8px 22px;
+}
+
+.main_homeSeven_middle_container2_links a img {
+    width: 45px;
+}
+
+.link1_p1 {
+    font-size: 8px;
+    color: #ffffffd8;
+    margin-bottom: -5px;
+}
+
+.link1_p2 {
+    font-size: 15px;
+    font-weight: 450;
+    color: white;
+}
+
+.main_homeSeven_bottom {
+    margin-top: 100px;
+}
+
+.main_homeSeven_bottom_imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+.main_homeSeven_bottom_imgs img {
+    width: 90px;
+}
+
+.main_homeSeven_bottom_text {
+    color: #e9c0e9;
+    text-align: center;
+    margin-top: 35px;
+}

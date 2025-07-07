@@ -1,0 +1,13 @@
+.learn_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #780016;
+    color: #e9c0e9;
+}
+
+.learn_container h1 {
+    font-size: 160px;
+    font-weight: 900;
+}

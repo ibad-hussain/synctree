@@ -1,0 +1,36 @@
+.main_notfound {
+    background-color: #02233d;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.notfound_heading {
+    font-weight: 800;
+    color: #b4b4b4;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.notfound_linkcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notfound_linkcontainer_join {
+    padding: 14px 26px;
+    background-color: #b4b4b4;
+    color: #1e2330;
+    border: none;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.notfound_linkcontainer_join:hover {
+    background-color: #cacaca;
+}
