@@ -37,7 +37,7 @@ const HomeSectionSeven = () => {
               <Link href={'/'}>The SyncTree Blog</Link>
               <Link href={'/'}>Engineering Blog</Link>
               <Link href={'/'}>Marketplace</Link>
-              <Link href={'/'}>What's New</Link>
+              <Link href={'/'}>What&rsquo;s New</Link>
               <Link href={'/'}>About</Link>
               <Link href={'/'}>Press</Link>
               <Link href={'/'}>Careers</Link>
@@ -53,7 +53,7 @@ const HomeSectionSeven = () => {
               <Link href={'/'}>2023 Creator Report</Link>
               <Link href={'/'}>2022 Creator Report</Link>
               <Link href={'/'}>Charities</Link>
-              <Link href={'/'}>What's Trending</Link>
+              <Link href={'/'}>What&rsquo;s Trending</Link>
               <Link href={'/'}>Creator Profile Directory</Link>
               <Link href={'/'}>Explore Templates</Link>
             </div>
