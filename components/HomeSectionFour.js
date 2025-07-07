@@ -27,7 +27,7 @@ const HomeSectionFour = () => {
             <p className={styles.homeFour_right_heading_p3}>your followers</p>
             <p className={styles.homeFour_right_heading_p4}>engaged</p>
           </h1>
-          <div className={styles.homeFour_right_subheading}>Track your engagement over time, monitor revenue and learn what’s converting your audience. Make informed updates on the fly to keep them coming back.</div>
+          <div className={styles.homeFour_right_subheading}>Track your engagement over time, monitor revenue and learn what&rsquo;s converting your audience. Make informed updates on the fly to keep them coming back.</div>
           <div className={styles.homeFour_right_btn}>
             <button type='button' onClick={() => router.push('/generate')}>Get started for free</button>
           </div>

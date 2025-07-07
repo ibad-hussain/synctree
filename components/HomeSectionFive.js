@@ -161,7 +161,7 @@ const HomeSectionFive = () => {
           </div>
           <div className={styles.homeFive_section2_left_container2} onClick={() => router.push('/products')}>
             <img src='/HomeSectionFive_Image12.png' />
-            <span>Sell products and collect payments. It’s monetization made simple.</span>
+            <span>Sell products and collect payments. It&rsquo;s monetization made simple.</span>
           </div>
         </div>
         <div className={styles.homeFive_section2_right}>
