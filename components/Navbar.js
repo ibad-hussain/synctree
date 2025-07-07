@@ -12,7 +12,7 @@ const Navbar = () => {
 
   const pathname = usePathname();
   const isGeneratePage = pathname === "/generate";
-  const showNavbar = ['/', '/generate', '/products', '/templates', '/marketplace', '/learn', '/pricing', '/about'].includes(pathname);
+  const showNavbar = ['/products', '/templates', '/marketplace', '/learn', '/pricing', '/about'].includes(pathname);
 
 
   return (
