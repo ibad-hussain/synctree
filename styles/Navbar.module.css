@@ -52,6 +52,7 @@
 
 .navbar_links a:hover {
     font-weight: 500;
+    color: black;
 }
 
 .navbar_btns {
