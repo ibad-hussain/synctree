@@ -19,7 +19,7 @@ const About = () => {
 
                     <div className={styles.about_bottom}>
                         <div className={styles.about_bottom_img}>
-                            <Image alt='Developer Picture' src={'/About_Pic.jpeg'} width={150} height={150} />
+                            <Image alt='Developer Picture' src={'/About_Pic.png'} width={150} height={150} />
                         </div>
                         <div className={styles.about_bottom_heading}>Ibad Hussain</div>
                         <div className={styles.about_bottom_subheading}>Full Stack Developer</div>
