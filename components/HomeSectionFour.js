@@ -26,6 +26,11 @@ const HomeSectionFour = () => {
             <p className={styles.homeFour_right_heading_p2}>audience and keep</p>
             <p className={styles.homeFour_right_heading_p3}>your followers</p>
             <p className={styles.homeFour_right_heading_p4}>engaged</p>
+            <p className={styles.homeFour_right_heading_p1_r}>Analyze</p>
+            <p className={styles.homeFour_right_heading_p2_r}>your audience</p>
+            <p className={styles.homeFour_right_heading_p3_r}>and keep</p>
+            <p className={styles.homeFour_right_heading_p4_r}>your followers</p>
+            <p className={styles.homeFour_right_heading_p5_r}>engaged</p>
           </h1>
           <div className={styles.homeFour_right_subheading}>Track your engagement over time, monitor revenue and learn what&rsquo;s converting your audience. Make informed updates on the fly to keep them coming back.</div>
           <div className={styles.homeFour_right_btn}>

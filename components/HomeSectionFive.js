@@ -178,6 +178,7 @@ const HomeSectionFive = () => {
         <h1 className={styles.homeFive_section3_heading}>
           <p className={styles.homeFive_section3_heading_p1}>The fast, friendly and</p>
           <p className={styles.homeFive_section3_heading_p2}>powerful link in bio tool.</p>
+          <p className={styles.homeFive_section3_heading_p_r}>The fast, friendly and powerful link in bio tool.</p>
         </h1>
         <div className={styles.homeFive_section3_btn}>
           <button type='button' onClick={() => router.push('/pricing')}>Explore all plans</button>
@@ -221,6 +222,7 @@ const HomeSectionFive = () => {
           <p className={styles.homeFive_section5_heading_p1}>“SyncTree simplifies the process for</p>
           <p className={styles.homeFive_section5_heading_p2}>creators to share multiple parts of</p>
           <p className={styles.homeFive_section5_heading_p3}>themselves in one inclusive link.”</p>
+          <p className={styles.homeFive_section5_heading_p_r}>“SyncTree simplifies the process for creators to share multiple parts of themselves in one inclusive link.”</p>
         </h1>
         <div className={styles.homeFive_section5_subheading}>
           <p className={styles.homeFive_section5_subheading_p1}>Riley Lemon,</p>

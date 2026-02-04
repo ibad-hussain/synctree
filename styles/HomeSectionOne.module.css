@@ -48,6 +48,7 @@
     border: none;
     border-radius: 8px;
     font-size: 15px;
+    background-color: #ffffff;
     color: #7a7a7a;
     width: 260px;
 }
@@ -256,5 +257,105 @@
 @keyframes fadeIn {
     to {
         opacity: 1;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .main_homeOne {
+        height: 100%;
+    }
+
+    .homeOne_container {
+        flex-direction: column;
+        gap: 50px;
+        padding: 20vh 3vh;
+    }
+
+    .homeOne_left {
+        width: 100%;
+    }
+
+    .homeOne_left_heading {
+        font-size: 40px;
+    }
+
+    .homeOne_left_heading_p2,
+    .homeOne_left_heading_p3,
+    .homeOne_left_heading_p4 {
+        margin-top: -20px;
+    }
+
+    .homeOne_left_subheading {
+        font-size: 15px;
+    }
+
+    .homeOne_left_btns {
+        margin-top: 35px;
+    }
+
+    .homeOne_left_btns input {
+        padding: 22px;
+        font-size: 14px;
+        width: 45vw;
+    }
+
+    .homeOne_left_btns button {
+        font-size: 14px;
+        padding: 14px 20px;
+        width: 38vw;
+    }
+
+    .homeOne_right {
+        width: 100%;
+    }
+
+    .homeOne_right_img_container {
+        height: 100%;
+    }
+
+    .homeOne_image2 {
+        width: 100px;
+        left: 25px;
+        bottom: 20px;
+    }
+
+    .homeOne_image3 {
+        display: none;
+    }
+
+    .homeOne_image4 {
+        width: 80px;
+    }
+
+    .homeOne_image5 {
+        width: 30px;
+        bottom: 20px;
+        right: 95px;
+    }
+
+    .homeOne_image6 {
+        width: 30px;
+        bottom: 20px;
+        right: 60px;
+    }
+
+    .homeOne_image7 {
+        width: 30px;
+        bottom: 20px;
+        right: 25px;
+    }
+}
+
+
+@media (max-width: 380px) {
+    .homeOne_left_heading {
+        font-size: 32px;
+    }
+
+    .homeOne_left_heading_p2,
+    .homeOne_left_heading_p3,
+    .homeOne_left_heading_p4 {
+        margin-top: -15px;
     }
 }

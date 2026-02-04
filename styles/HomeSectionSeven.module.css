@@ -36,6 +36,10 @@
     margin-top: -18px;
 }
 
+.main_homeSeven_top_heading_p_r {
+    display: none;
+}
+
 .main_homeSeven_top_btns {
     margin-top: 35px;
     display: flex;
@@ -55,6 +59,7 @@
     border: none;
     border-radius: 8px;
     font-size: 15px;
+    background-color: #ffffff;
     color: #7a7a7a;
     width: 260px;
 }
@@ -154,6 +159,10 @@
     gap: 6px;
 }
 
+.main_homeSeven_middle_container2_links_r {
+    display: none;
+}
+
 .main_homeSeven_middle_container2_links a {
     display: flex;
     justify-content: center;
@@ -210,4 +219,129 @@
     color: #e9c0e9;
     text-align: center;
     margin-top: 35px;
+}
+
+
+@media (max-width: 500px) {
+    .main_homeSeven {
+        padding: 10vh 3vh 30px 3vh;
+    }
+
+    .homeSeven_image1,
+    .homeSeven_image2 {
+        display: none;
+    }
+
+    .main_homeSeven_top {
+        margin: 0;
+        margin-bottom: 100px;
+    }
+
+    .main_homeSeven_top_heading {
+        font-size: 40px;
+    }
+
+    .main_homeSeven_top_heading_p1,
+    .main_homeSeven_top_heading_p2 {
+        display: none;
+    }
+
+    .main_homeSeven_top_heading_p_r {
+        display: block;
+        line-height: 1.3;
+    }
+
+    .main_homeSeven_top_btns input {
+        padding: 22px;
+        font-size: 14px;
+        width: 45vw;
+    }
+
+    .main_homeSeven_top_btns button {
+        font-size: 14px;
+        padding: 14px 20px;
+        width: 38vw;
+    }
+
+    .main_homeSeven_middle {
+        padding: 30px 20px;
+    }
+
+    .main_homeSeven_middle_container1 {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .main_homeSeven_middle_container2 {
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .homeSeven_login {
+        padding: 22px;
+        font-size: 14px;
+        width: 35vw;
+    }
+
+    .homeSeven_getstarted {
+        font-size: 14px;
+        padding: 14px 20px;
+        width: 35vw;
+    }
+
+    .main_homeSeven_middle_container2_links {
+        display: none;
+    }
+
+    .main_homeSeven_middle_container2_links_r {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .main_homeSeven_middle_container2_links_r_div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .main_homeSeven_middle_container2_links_r_div a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        border: none;
+        border-radius: 50px;
+        height: 60px;
+        background-color: #1e2330;
+        transition: all 0.3s ease;
+    }
+
+    .main_homeSeven_middle_container2_links_r_div a:hover {
+        background-color: #2f3544;
+    }
+
+    .main_homeSeven_middle_container2_links_r_div_n1 {
+        padding: 8px 22px !important;
+    }
+
+    .main_homeSeven_middle_container2_links_r a img {
+        width: 45px;
+    }
+}
+
+
+@media (max-width: 350px) {
+    .homeSeven_login {
+        width: 38vw;
+    }
+
+    .homeSeven_getstarted {
+        width: 38vw;
+    }
 }

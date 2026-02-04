@@ -219,3 +219,26 @@
     color: #000;
     border-color: #fff;
 }
+
+
+@media (max-width: 500px) {
+    .handle_container1 img {
+        width: 100px;
+    }
+
+    .handle_container2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .handle_container2_subheading {
+        width: 85%;
+    }
+
+    .handle_container3 a {
+        width: 85%;
+    }
+}

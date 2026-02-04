@@ -97,3 +97,62 @@
 .navbar_signup:hover {
     background-color: #262d3d;
 }
+
+
+@media (max-width: 500px) {
+    .main_navbar {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .main_navbar_generatePage {
+        margin-left: 5%;
+    }
+
+    .navbar_left {
+        gap: 0;
+        margin: 0;
+    }
+
+    .navbar_logo {
+        justify-content: center;
+    }
+
+    .navbar_logo span {
+        display: none;
+    }
+
+    .navbar_logo img {
+        width: 60px;
+        margin-left: -10px;
+    }
+
+    .navbar_links {
+        display: none;
+    }
+
+    .navbar_login {
+        font-size: 14px;
+    }
+
+    .navbar_signup {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 350px) {
+    .navbar_logo img {
+        width: 50px;
+    }
+
+    .navbar_login {
+        font-size: 13px;
+        padding: 14px;
+    }
+
+    .navbar_signup {
+        font-size: 13px;
+        padding: 14px 20px;
+    }
+}

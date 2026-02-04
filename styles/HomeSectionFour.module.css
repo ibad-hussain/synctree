@@ -44,6 +44,14 @@
     margin-top: -22px;
 }
 
+.homeFour_right_heading_p1_r,
+.homeFour_right_heading_p2_r,
+.homeFour_right_heading_p3_r,
+.homeFour_right_heading_p4_r,
+.homeFour_right_heading_p5_r {
+    display: none;
+}
+
 .homeFour_right_subheading {
     font-weight: 500;
     font-size: 17px;
@@ -106,5 +114,86 @@
 
     100% {
         opacity: 0;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .main_homeFour {
+        height: 100%;
+    }
+
+    .homeFour_container {
+        flex-direction: column-reverse;
+        gap: 50px;
+        padding: 10vh 3vh;
+    }
+
+    .homeFour_left {
+        width: 100%;
+    }
+
+    .homeFour_left_img_container {
+        height: 50vh;
+    }
+
+    .homeFour_image1 {
+        width: 100%;
+    }
+
+    .homeFour_right {
+        width: 100%;
+    }
+
+    .homeFour_right_heading {
+        font-size: 40px;
+    }
+
+    .homeFour_right_heading_p1,
+    .homeFour_right_heading_p2,
+    .homeFour_right_heading_p3,
+    .homeFour_right_heading_p4 {
+        display: none;
+    }
+
+    .homeFour_right_heading_p1_r,
+    .homeFour_right_heading_p2_r,
+    .homeFour_right_heading_p3_r,
+    .homeFour_right_heading_p4_r,
+    .homeFour_right_heading_p5_r {
+        display: block;
+    }
+
+    .homeFour_right_heading_p2_r,
+    .homeFour_right_heading_p3_r,
+    .homeFour_right_heading_p4_r,
+    .homeFour_right_heading_p5_r {
+        margin-top: -15px;
+    }
+
+    .homeFour_right_subheading {
+        font-size: 15px;
+    }
+
+    .homeFour_right_btn {
+        margin-top: 35px;
+    }
+
+    .homeFour_right_btn button {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 350px) {
+    .homeFour_right_heading {
+        font-size: 35px;
+    }
+
+    .homeFour_right_heading_p2_r,
+    .homeFour_right_heading_p3_r,
+    .homeFour_right_heading_p4_r,
+    .homeFour_right_heading_p5_r {
+        margin-top: -12px;
     }
 }

@@ -83,6 +83,13 @@
     margin-top: -22px;
 }
 
+.homeTwo_right_heading_p1_r,
+.homeTwo_right_heading_p2_r,
+.homeTwo_right_heading_p3_r,
+.homeTwo_right_heading_p4_r {
+    display: none;
+}
+
 .homeTwo_right_subheading {
     font-weight: 500;
     font-size: 17px;
@@ -161,5 +168,105 @@
     100% {
         opacity: 0;
         z-index: 0;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .main_homeTwo {
+        height: 100%;
+    }
+
+    .homeTwo_container {
+        flex-direction: column-reverse;
+        gap: 50px;
+        padding: 10vh 3vh;
+    }
+
+    .homeTwo_left {
+        width: 100%;
+    }
+
+    .homeTwo_left_img_container {
+        height: 70vh;
+    }
+
+    .homeTwo_image1 {
+        width: 320px;
+    }
+
+    .homeTwo_image3_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .homeTwo_image3_container img {
+        width: 70px;
+    }
+
+    .homeTwo_image3_container_span {
+        padding: 12px 24px;
+    }
+
+    .homeTwo_image3_container_span img {
+        width: 35px;
+    }
+
+    .homeTwo_image3_container_span span {
+        font-size: 16px;
+    }
+
+    .homeTwo_right {
+        width: 100%;
+    }
+
+    .homeTwo_right_heading {
+        font-size: 40px;
+    }
+
+    .homeTwo_right_heading_p1,
+    .homeTwo_right_heading_p2,
+    .homeTwo_right_heading_p3 {
+        display: none;
+    }
+
+    .homeTwo_right_heading_p1_r,
+    .homeTwo_right_heading_p2_r,
+    .homeTwo_right_heading_p3_r,
+    .homeTwo_right_heading_p4_r {
+        display: block;
+    }
+
+    .homeTwo_right_heading_p2_r,
+    .homeTwo_right_heading_p3_r,
+    .homeTwo_right_heading_p4_r {
+        margin-top: -20px;
+    }
+
+    .homeTwo_right_subheading {
+        font-size: 15px;
+    }
+
+    .homeTwo_right_btn {
+        margin-top: 35px;
+    }
+
+    .homeTwo_right_btn button {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 370px) {
+    .homeTwo_right_heading {
+        font-size: 34px;
+    }
+
+    .homeTwo_right_heading_p2_r,
+    .homeTwo_right_heading_p3_r,
+    .homeTwo_right_heading_p4_r {
+        margin-top: -18px;
     }
 }

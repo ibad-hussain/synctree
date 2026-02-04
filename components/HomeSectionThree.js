@@ -20,6 +20,11 @@ const HomeSectionThree = () => {
             <p className={styles.homeThree_left_heading_p2}>from your Instagram,</p>
             <p className={styles.homeThree_left_heading_p3}>TikTok, Twitter and</p>
             <p className={styles.homeThree_left_heading_p4}>other bios</p>
+            <p className={styles.homeThree_left_heading_p1_r}>Share your</p>
+            <p className={styles.homeThree_left_heading_p2_r}>SyncTree from</p>
+            <p className={styles.homeThree_left_heading_p3_r}>your Instagram,</p>
+            <p className={styles.homeThree_left_heading_p4_r}>TikTok, Twitter</p>
+            <p className={styles.homeThree_left_heading_p5_r}>and other bios</p>
           </h1>
           <div className={styles.homeThree_left_subheading}>Add your unique SyncTree URL to all the platforms and places you find your audience. Then use your QR code to drive your offline traffic online.</div>
           <div className={styles.homeThree_left_btn}>

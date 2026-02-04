@@ -11,3 +11,10 @@
     font-size: 160px;
     font-weight: 900;
 }
+
+
+@media (max-width: 500px) {
+    .marketplace_container h1 {
+        font-size: 12vw;
+    }
+}

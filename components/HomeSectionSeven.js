@@ -20,6 +20,7 @@ const HomeSectionSeven = () => {
         <div className={styles.main_homeSeven_top_heading}>
           <p className={styles.main_homeSeven_top_heading_p1}>Jumpstart your corner of the</p>
           <p className={styles.main_homeSeven_top_heading_p2}>internet today</p>
+          <p className={styles.main_homeSeven_top_heading_p_r}>Jumpstart your corner of the internet today</p>
         </div>
         <div className={styles.main_homeSeven_top_btns}>
           <div>
@@ -104,6 +105,28 @@ const HomeSectionSeven = () => {
             <Link href={'/'}><img src='/HomeSectionSeven_Image6.png' /></Link>
             <Link href={'/'}><img src='/HomeSectionSeven_Image7.png' /></Link>
             <Link href={'/'}><img src='/HomeSectionSeven_Image8.png' /></Link>
+          </div>
+          <div className={styles.main_homeSeven_middle_container2_links_r}>
+            <div className={styles.main_homeSeven_middle_container2_links_r_div}>
+              <Link href={'/'} className={styles.main_homeSeven_middle_container2_links_r_div_n1}>
+                <div>
+                  <p className={styles.link1_p1}>Download on the</p>
+                  <p className={styles.link1_p2}>App Store</p>
+                </div>
+              </Link>
+              <Link href={'/'} className={styles.main_homeSeven_middle_container2_links_r_div_n1}>
+                <div>
+                  <p className={styles.link1_p1}>GET IT ON</p>
+                  <p className={styles.link1_p2}>Google Play</p>
+                </div>
+              </Link>
+            </div>
+            <div className={styles.main_homeSeven_middle_container2_links_r_div}>
+              <Link href={'/'}><img src='/HomeSectionSeven_Image5.png' /></Link>
+              <Link href={'/'}><img src='/HomeSectionSeven_Image6.png' /></Link>
+              <Link href={'/'}><img src='/HomeSectionSeven_Image7.png' /></Link>
+              <Link href={'/'}><img src='/HomeSectionSeven_Image8.png' /></Link>
+            </div>
           </div>
         </div>
       </div>

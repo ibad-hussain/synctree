@@ -33,6 +33,10 @@ const HomeSectionTwo = () => {
             <p className={styles.homeTwo_right_heading_p1}>Create and customize</p>
             <p className={styles.homeTwo_right_heading_p2}>your SyncTree in</p>
             <p className={styles.homeTwo_right_heading_p3}>minutes</p>
+            <p className={styles.homeTwo_right_heading_p1_r}>Create and</p>
+            <p className={styles.homeTwo_right_heading_p2_r}>customize your</p>
+            <p className={styles.homeTwo_right_heading_p3_r}>SyncTree in</p>
+            <p className={styles.homeTwo_right_heading_p4_r}>minutes</p>
           </h1>
           <div className={styles.homeTwo_right_subheading}>Connect your TikTok, Instagram, Twitter, website, store, videos, music, podcast, events and more. It all comes together in a link in bio landing page designed to convert.</div>
           <div className={styles.homeTwo_right_btn}>
